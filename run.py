@@ -22,12 +22,19 @@ import os
 import json
 from utilities import location, clear, get_full_name, search
 
-# Load data
-with open(location('data/school.json')) as f:
-    school_data = json.load(f)
 
-with open(location('data/Students.json')) as f:
-    students_data = json.load(f)
+def load_data():
+    global school_data
+    global students_data
+
+    with open(location('data/school.json')) as f:
+        school_data = json.load(f)
+
+    with open(location('data/Students.json')) as f:
+        students_data = json.load(f)
+
+# Load data
+load_data()
 
 # MAIN
 
