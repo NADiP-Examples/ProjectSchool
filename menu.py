@@ -24,15 +24,14 @@ def menu_do(menu, **kwargs):
         print("*" * 24)
         print("MENU > ", kwargs.get("sub_menu", ''))
         for number, el in enumerate(menu):
-            print("%s. %s" % (number, el["text"]))
+            print("%s. %s" % (number+1, el["text"]))
         choice = int(input(": "))
-        if menu[choice].get("do"):
-            if menu[choice]["do"]():
+        menu_select = menu[choice-1]
+        if menu_select.get("do"):
+            if menu_select["do"]():
                 break
-                # break
         else:
-            menu_do(menu[choice]["sub_menu"], sub_menu=menu[choice]['text'])
-            # return True
+            menu_do(menu_select["sub_menu"], sub_menu=menu_select['text'])
 
 
 def about_students():
@@ -108,5 +107,4 @@ menu = [
 
 run = True
 
-while run:
-    menu_do(menu)
+menu_do(menu)
