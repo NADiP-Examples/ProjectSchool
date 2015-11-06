@@ -1,65 +1,64 @@
 [
   {
-    "id": 1,
-    "name": "Иван",
-    "middle_name": "Игоревич",
-    "surname": "Иванов",
-    "school": "67 школа",
-    "class": "5 А",
-    "birth_day": "12.07.1998"
-  },
-  {
+    "class": "6 А",
+    "name": "Александр",
     "id": 2,
-    "name": "Александр",
     "middle_name": "Петрович",
+    "birth_day": "01.12.1997",
     "surname": "Красный",
-    "school": "12 гимназия",
-    "class": "6 А",
-    "birth_day": "01.12.1997"
+    "school": "12 гимназия"
   },
   {
-    "id": 3,
+    "class": "6 А",
     "name": "Матвей",
+    "id": 3,
     "middle_name": "Степанович",
+    "birth_day": "10.02.1997",
     "surname": "Петров",
-    "school": "12 гимназия",
-    "class": "6 А",
-    "birth_day": "10.02.1997"
+    "school": "12 гимназия"
   },
   {
-    "id": 4,
-    "name": "Артем",
-    "middle_name": "Валерьевич",
-    "surname": "Кузин",
-    "school": "12 гимназия",
     "class": "7 Г",
-    "birth_day": "10.02.1995"
-  },
-  {
-    "id": 5,
-    "name": "Петр",
-    "middle_name": "Исаакович",
-    "surname": "Рузенштерн",
-    "school": "12 гимназия",
-    "class": "6 Г",
-    "birth_day": "21.05.1996"
-  },
-  {
-    "id": 6,
-    "name": "Александр",
+    "name": "Артем",
+    "id": 4,
     "middle_name": "Валерьевич",
+    "birth_day": "10.02.1995",
     "surname": "Кузин",
-    "school": "12 гимназия",
-    "class": "8 Д",
-    "birth_day": "21.05.1994"
+    "school": "12 гимназия"
   },
   {
-    "id": 7,
-    "name": "Иван",
-    "middle_name": "Григорьевич",
-    "surname": "Иванов",
-    "school": "67 шк",
+    "class": "6 Г",
+    "name": "Петр",
+    "id": 5,
+    "middle_name": "Исаакович",
+    "birth_day": "21.05.1996",
+    "surname": "Рузенштерн",
+    "school": "12 гимназия"
+  },
+  {
+    "class": "8 Д",
+    "name": "Александр",
+    "id": 6,
+    "middle_name": "Валерьевич",
+    "birth_day": "21.05.1994",
+    "surname": "Кузин",
+    "school": "12 гимназия"
+  },
+  {
     "class": "7 Б",
-    "birth_day": "11.02.1995"
+    "name": "Иван",
+    "id": 7,
+    "middle_name": "Григорьевич",
+    "birth_day": "11.02.1995",
+    "surname": "Иванов",
+    "school": "67 шк"
+  },
+  {
+    "class": "",
+    "name": "Василий",
+    "id": 8,
+    "middle_name": "Петрович",
+    "surname": "Новый",
+    "school": "67 school"
   }
 ]
